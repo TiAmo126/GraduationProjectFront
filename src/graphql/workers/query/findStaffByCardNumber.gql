@@ -1,0 +1,13 @@
+query findStaffByCardNumber($cardNumber:String!){
+  findStaffByCardNumber(cardNumber: $cardNumber){
+    avatarBase
+    birthday
+    cardNumber
+    gender
+    id
+    idCard
+    name
+    password
+    role
+  }
+}

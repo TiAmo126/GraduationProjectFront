@@ -1,0 +1,6 @@
+mutation saveMember($entity:MemberInput!){
+  saveMember(entity: $entity){
+    code
+    message
+  }
+}

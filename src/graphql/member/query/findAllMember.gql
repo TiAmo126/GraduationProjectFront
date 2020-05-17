@@ -1,0 +1,11 @@
+query findAllMember{
+  findAllMember{
+    birthday
+    cardNumber
+    gender
+    id
+    idCard
+    integral
+    name
+  }
+}

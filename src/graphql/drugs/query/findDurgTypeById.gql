@@ -1,0 +1,7 @@
+query findDurgTypeById($id: String!){
+  findDurgTypeById(id: $id){
+    id
+    name
+    parentId
+  }
+}

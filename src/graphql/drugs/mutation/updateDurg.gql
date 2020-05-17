@@ -1,0 +1,6 @@
+mutation updateDurg($entity:DurgInput!){
+  updateDurg(entity: $entity){
+    code
+    message
+  }
+}

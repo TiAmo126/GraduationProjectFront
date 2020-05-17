@@ -1,0 +1,11 @@
+query findMemberById($id:String!){
+  findMemberById(id: $id){
+    birthday
+    cardNumber
+    gender
+    id
+    idCard
+    integral
+    name
+  }
+}

@@ -1,0 +1,6 @@
+mutation deleteStaffById($id:String!){
+  deleteStaffById(id: $id){
+    code
+    message
+  }
+}

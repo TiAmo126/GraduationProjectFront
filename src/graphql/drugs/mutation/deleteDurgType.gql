@@ -1,0 +1,6 @@
+mutation deleteDurgType($id: String!){
+  deleteDurgType(id: $id){
+    code
+    message
+  }
+}

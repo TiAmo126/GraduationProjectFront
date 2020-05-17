@@ -1,0 +1,14 @@
+query findAllSoldNoteByUpdateTimeBetween($from:String,$to:String!){
+  findAllSoldNoteByUpdateTimeBetween(from: $from, to: $to){
+    durg {
+      id
+      name
+      price
+      stock
+      typeId
+    }
+    id
+    saleNumber
+    updateTime
+  }
+}

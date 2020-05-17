@@ -1,0 +1,6 @@
+mutation saveStaff($entity:StaffInput!){
+  saveStaff(entity:$entity){
+    code
+    message
+  }
+}

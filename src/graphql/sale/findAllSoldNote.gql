@@ -1,0 +1,14 @@
+query findAllSoldNote ($page:PageInput!){
+  findAllSoldNote(page: $page){
+    durg {
+      id
+      name
+      price
+      stock
+      typeId
+    }
+    id
+    saleNumber
+    updateTime
+  }
+}

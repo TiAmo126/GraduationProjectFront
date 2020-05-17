@@ -1,0 +1,13 @@
+query findStaffById($id:String!){
+  findStaffById(id: $id){
+    avatarBase
+    birthday
+    cardNumber
+    gender
+    id
+    idCard
+    name
+    password
+    role
+  }
+}

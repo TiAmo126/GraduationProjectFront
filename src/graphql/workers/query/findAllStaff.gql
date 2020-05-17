@@ -1,0 +1,13 @@
+query findAllStaff{
+  findAllStaff{
+    avatarBase
+    birthday
+    cardNumber
+    gender
+    id
+    idCard
+    name
+    password
+    role
+  }
+}

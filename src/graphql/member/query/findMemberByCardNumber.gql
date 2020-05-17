@@ -1,0 +1,11 @@
+query findMemberByCardNumber($cardNumber:String!){
+  findMemberByCardNumber(cardNumber: $cardNumber){
+    birthday
+    cardNumber
+    gender
+    id
+    idCard
+    integral
+    name
+  }
+}

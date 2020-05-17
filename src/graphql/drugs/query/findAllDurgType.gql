@@ -1,0 +1,7 @@
+query findAllDurgType{
+  findAllDurgType{
+    id
+    name
+    parentId
+  }
+}

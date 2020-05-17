@@ -1,0 +1,9 @@
+query findDurgById($id: String!){
+  findDurgById(id: $id){
+    id
+    name
+    price
+    stock
+    typeId
+  }
+}

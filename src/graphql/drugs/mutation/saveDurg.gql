@@ -1,0 +1,6 @@
+mutation saveDurg($entity:DurgInput!){
+  saveDurg(entity: $entity){
+    code
+    message
+  }
+}

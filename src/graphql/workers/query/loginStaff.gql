@@ -1,0 +1,19 @@
+query loginStaff($cardNumber:String!,$password:String!){
+  loginStaff(cardNumber: $cardNumber, password: $password){
+    code
+    message
+    data{
+          ...on Staff{
+            avatarBase
+            id
+            birthday
+            cardNumber
+            gender
+            idCard
+            name
+            password
+            role
+          }
+        }
+  }
+}
